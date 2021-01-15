@@ -1,0 +1,23 @@
+create_doc
+second.txt
+add_figure
+square 0 0 2 2 0 2 2 0
+add_figure
+rectangle 0 0 5 6 5 0 0 6
+add_figure
+triangle 0 0 2 2 6 7
+print_doc
+save_doc
+remove_figure
+1
+undo 
+undo
+add_figure
+square 0 0 3 3 0 3 3 0
+undo
+undo
+print_doc
+remove_figure
+0
+undo
+exit

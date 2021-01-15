@@ -1,0 +1,16 @@
+create_doc
+first.txt
+add_figure
+square 1 1 1 1 1 1 1 1
+add_figure
+rectangle 0 0 1 1 0 1 1 0
+remove_figure
+0
+undo
+save_doc
+print_doc
+print_doc
+add_figure
+square 0 0 2 2 2 0 0 2
+undo
+exit
